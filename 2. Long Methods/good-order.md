@@ -1,6 +1,7 @@
 **GOOD**
 1) Break down long methods into smaller, more focused methods
 2) Improve readability and maintainability
+3) However, it remains the issue that the class being too large. Check out the Sample 3 for a better solution.
 
 class OrderProcessor {
   

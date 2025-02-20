@@ -1,5 +1,6 @@
 **BAD**
 Single large method doing many things
+Tight coupling
 
 class OrderProcessor {
     void processOrder(Order order) {
