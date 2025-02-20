@@ -1,7 +1,7 @@
-**GOOD**
-1) Break down long methods into smaller, more focused methods
-2) Improve readability and maintainability
-3) However, it remains the issue that the class being too large. Check out the Sample 3 for a better solution.
+// GOOD
+// 1) Break down long methods into smaller, more focused methods
+// 2) Improve readability and maintainability
+// 3) However, it remains the issue that the class being too large. Check out the Sample 3 for a better solution.
 
 class OrderProcessor {
   
@@ -14,7 +14,7 @@ class OrderProcessor {
     }
     
     private void validateOrder(Order order) {
-**showing the specific error**
+        // showing the specific error
         if(order.getCustomer() == null) throw new IllegalArgumentException("Customer cannot be null"); 
         if(!order.getCustomer().isActive()) throw new IllegalStateException("Customer must be active");
     }

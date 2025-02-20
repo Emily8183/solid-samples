@@ -1,5 +1,4 @@
-**BAD**
-Duplicate code in multiple classes
+// BAD: Duplicate code in multiple classes
 
 class CustomerOrder {
     void processOrder() {

@@ -22,3 +22,5 @@
 ○	Rename variables, methods, and classes to be more descriptive and meaningful
 ○	Follow naming conventions and improve code readability
 
+
+

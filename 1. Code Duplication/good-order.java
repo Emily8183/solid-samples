@@ -1,10 +1,8 @@
-**GOOD**
-1) Extract duplicate code into reusable methods or classes
-2) Apply the DRY (Don't Repeat Yourself) principle
+// GOOD
+// 1) Extract duplicate code into reusable methods or classes
+// 2) Apply the DRY (Don't Repeat Yourself) principle
 
-
-
-<!-- OR: abstract class Order -->
+// OR: abstract class Order
 class Order {
     void processOrder() {
         validateCustomer();

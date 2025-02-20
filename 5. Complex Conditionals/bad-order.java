@@ -1,4 +1,4 @@
-**BAD**
+// BAD
 
 if(order.getStatus().equals("NEW") && 
    order.getTotal() > 100 && 

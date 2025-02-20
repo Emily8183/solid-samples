@@ -1,4 +1,4 @@
-**GOOD**
+// GOOD
 
 class OrderValidator {
   

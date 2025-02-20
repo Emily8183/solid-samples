@@ -1,5 +1,5 @@
-**BAD**
-Single class with too many responsibilities
+// BAD
+// Single class with too many responsibilities
 
 class OrderManager {
     // Order processing
