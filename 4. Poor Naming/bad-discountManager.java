@@ -1,4 +1,4 @@
-**BAD**
+// BAD
 
 class DM {
     void p(List<O> ol) {

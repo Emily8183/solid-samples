@@ -1,4 +1,4 @@
-**GOOD**
+// GOOD
 
 class DiscountManager {
     void processOrders(List<Order> orderList) {
