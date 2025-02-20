@@ -4,3 +4,6 @@
 
 1.	Code Duplication
 2.  Long Methods
+3.  Large Classes
+4.  Poor Naming
+5.  Complex Conditionals
