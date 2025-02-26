@@ -14,7 +14,9 @@ public class Caretaker {
 
         if (mementoHistory.isEmpty()) return null;
 
-        return mementoHistory.pop();
+        mementoHistory.pop();
+
+        return mementoHistory.get(mementoHistory.size()-1);
     }
     
 }
