@@ -1,26 +1,20 @@
 package memento;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import memento.Memento;
+import java.util.Stack;
 
 public class Caretaker {
 
-    private List<Memento> mementoHistory = new ArrayList<>();
+    private Stack<Memento> mementoHistory = new Stack<>();
 
     public void addContent(Memento memento) {
-        mementoHistory.add(memento);
+        mementoHistory.push(memento);
     }
 
     public Memento remove() {
-        int lastIndex = mementoHistory.size() - 1;
-        Memento lastContent = mementoHistory.get(lastIndex);
 
-        mementoHistory.remove(lastContent);
+        if (mementoHistory.isEmpty()) return null;
 
-        return lastContent;
-
+        return mementoHistory.pop();
     }
     
 }

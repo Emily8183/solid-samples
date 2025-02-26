@@ -15,10 +15,11 @@ public class Main {
 
         originator.setContent("c");
         caretaker.addContent(originator.createState());
-
+        
         originator.restore(caretaker.remove());
-
-        System.out.println(originator.getContent());
+        originator.restore(caretaker.remove());
+       
+        // System.out.println(originator.getContent());
         
     }
 
