@@ -1,7 +1,7 @@
 package tax_calculator;
 
 public class Order {
-    private final double amount;//订单金额创建后不能改变
+    private final double amount;
 
     public Order(double amount) {
         this.amount = amount;
@@ -10,5 +10,5 @@ public class Order {
     public double getAmount() {
         return amount;
     }
-
+   
 }
