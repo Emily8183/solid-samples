@@ -7,14 +7,13 @@ public class Main {
 
         Caretaker caretaker = new Caretaker();
 
-        originator.setContent("a");
-        caretaker.addContent(originator.createState());
+        originator.setstate("a");
+        caretaker.addState(originator.createState());
 
-        originator.setContent("b");
-        caretaker.addContent(originator.createState());
+        originator.setstate("b");
+        caretaker.addState(originator.createState());
 
-        originator.setContent("c");
-        caretaker.addContent(originator.createState());
+        originator.setstate("c");
 
         originator.restore(caretaker.remove());
         // originator.restore(caretaker.remove());

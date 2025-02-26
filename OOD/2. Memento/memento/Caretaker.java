@@ -6,7 +6,7 @@ public class Caretaker {
 
     private Stack<Memento> mementoHistory = new Stack<>();
 
-    public void addContent(Memento memento) {
+    public void addState(Memento memento) {
         mementoHistory.push(memento);
     }
 
@@ -14,9 +14,8 @@ public class Caretaker {
 
         if (mementoHistory.isEmpty()) return null;
 
-        mementoHistory.pop();
+        return mementoHistory.pop();
 
-        return mementoHistory.get(mementoHistory.size()-1);
     }
     
 }
