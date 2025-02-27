@@ -1,5 +1,5 @@
 abstract class PizzaDecorator implements Pizza{
-    protected Pizza decoratedPizza; //字类可以直接访问
+    protected Pizza decoratedPizza; //子类可以直接访问
 
     public PizzaDecorator(Pizza pizza) {
         this.decoratedPizza = pizza;
