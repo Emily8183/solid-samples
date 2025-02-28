@@ -1,5 +1,7 @@
 package ReportGenerator;
 
+//problems: Long Method, No Reusability, not easy to add new format
+//solution: factory
 public class ReportGenerator {
     public void generateReport(String type) {
         if (type.equals("PDF")) {
