@@ -32,6 +32,8 @@ public class Client {
         Order order = new Order(amount);
 
         processor.processor(order);
+
+        scanner.close();
         
     }
     
