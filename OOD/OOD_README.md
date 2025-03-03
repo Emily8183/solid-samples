@@ -1,8 +1,11 @@
-|                     | Name    | Key Points |
-|---------------------|---------|------------|
-| Creational Patterns | Builder | 1) Mandatory vs. Optional Parameters  
-2) Builder Can Be a Static Inner Class  
-3) Passing the Builder Object to the Main Class' Constructor   
-4) Method Chaining in any order      |
-| Data 4              | Data 5  | Data 6     |
-| Data 7              | Data 8  | Data 9     |
+| **TYPE**                                                            | **NAME**       | **KEY POINTS **                                                                                                      | **** | **** | **** | **** | **** | **** | **** |
+|---------------------------------------------------------------------|----------------|----------------------------------------------------------------------------------------------------------------------|------|------|------|------|------|------|------|
+| **Creational Patterns**                                             | Builder        | "1) Mandatory vs. optional parameters                                                                                |      |      |      |      |      |      |      |
+| **2) Builder can be a Static Inner Class  **                        |                |                                                                                                                      |      |      |      |      |      |      |      |
+| **3) Passing the builder object to the main class' constructor   ** |                |                                                                                                                      |      |      |      |      |      |      |      |
+| **4) Method Chaining in any order  " **                             |                |                                                                                                                      |      |      |      |      |      |      |      |
+| ****                                                                | Basic Factory  | "1) Using a single factory method                                                                                    |      |      |      |      |      |      |      |
+| **2) Switch-Case with default**                                     |                |                                                                                                                      |      |      |      |      |      |      |      |
+| **3) Loose Coupling but may violate Open/Closed Principle" **       |                |                                                                                                                      |      |      |      |      |      |      |      |
+| ****                                                                | Factory Method | "1) Use subclasses override superclass  (either an abstract class or an interface) to specify which object to create |      |      |      |      |      |      |      |
+| **2) A single object creation" **                                   |                |                                                                                                                      |      |      |      |      |      |      |      |
