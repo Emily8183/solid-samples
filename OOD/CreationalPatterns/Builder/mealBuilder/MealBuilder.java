@@ -1,3 +1,5 @@
+//this is a sample showing the builder is not an innter class
+
 public class MealBuilder {
     public String mainDish;
     public String sideDish;
@@ -16,7 +18,7 @@ public class MealBuilder {
         // Initialize the MealBuilder dessert field with the provided dessert parameter.
         this.dessert = dessert;
         
-        return this;
+        return this; //Returning the same MealBuilder object so we can chain methods 
     }
 
     public MealBuilder setAppetizer(String appetizer) {
@@ -28,7 +30,8 @@ public class MealBuilder {
 
     public Meal build() {
         // Write the return statement to complete the object construction process.
-        return Meal.getInstance(this);
+        return Meal.getInstance(this); //when the builder is separate from the Meal class
+        // return new Meal(this); <= when the builder is a static inner class
         
     }
 }

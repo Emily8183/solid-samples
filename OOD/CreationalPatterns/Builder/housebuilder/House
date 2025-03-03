@@ -1,0 +1,72 @@
+//sample to show the builder is a static inner class
+
+public class House {
+    private String roof;
+    private String construction;
+    private String foundation;
+
+    private boolean hasGarden;
+    private boolean hasSwimmingPool;
+    private boolean hasYarrd;
+
+    //House's constructor can be private
+    private House(HouseBuilder builder)  {
+        this.roof = builder.roof;
+        this.construction = builder.construction;
+        this.foundation = builder.foundation;
+        this.hasGarden = builder.hasGarden;
+        this.hasSwimmingPool = builder.hasSwimmingPool;
+        this.hasYard = builder.hasYard;
+    }
+
+    @Override
+    public String toString() {
+        return "House{" +
+                "foundation='" + foundation + '\'' +
+                ", structure='" + structure + '\'' +
+                ", roof='" + roof + '\'' +
+                ", hasGarage=" + hasGarage +
+                ", hasSwimmingPool=" + hasSwimmingPool +
+                ", hasGarden=" + hasGarden +
+                '}';
+    }
+
+    public static class HouseBuilder {
+        private String roof;
+        private String construction;
+        private String foundation;
+
+        private boolean hasGarden = false;
+        private boolean hasSwimmingPool = false;
+        private boolean hasYarrd = false;
+
+        public HouseBuilder(String roof, String construction, String foundation) {
+            this.roof = roof;
+            this.construction = construction;
+            this.foundation = foundation;
+        }
+
+        //optional parameters: setter, 不需要返回值
+        public setHasGarden(boolean hasGarden) {
+            this.hasGarden = hasGarden;
+            return this;
+        }
+
+        public setHasSwimmingPool(boolean hasSwimmingPool) {
+            this.hasSwimmingPool = hasSwimmingPool;
+            return this;
+        }
+
+        public setHasYard(boolean hasYard) {
+            this.hasYard = hasYard;
+            return this;
+        }
+
+
+        public House build() {
+            return new House(this);
+        }
+    
+    }
+
+}
