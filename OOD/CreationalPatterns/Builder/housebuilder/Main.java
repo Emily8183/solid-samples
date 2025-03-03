@@ -4,9 +4,9 @@ public class Main {
         
     public static void main(String[] args) {
         House house = new House.HouseBuilder("Concrete", "Wooden", "Tile")
-                .setGarden(true)
-                .setSwimmingPool(true)
-                .setGarage(false)
+                .setHasGarden(true)
+                .setHasSwimmingPool(true)
+                .setHasGarage(false)
                 .build();
 
         System.out.println(house);

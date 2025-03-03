@@ -62,7 +62,6 @@ public class House {
             return this;
         }
 
-
         public House build() {
             return new House(this);
         }
