@@ -1,42 +1,11 @@
-# solid-samples
+A collection of documents focused on writing clean code and establishing a foundation in object-oriented design (OOD). ***Update in progress.***
 
-**A Collection of Common Issues**
+[***Anti-patterns Summary***](https://github.com/Emily8183/solid-samples/blob/main/README.md)  
 
-1.	Code Duplication  
-○	Extract duplicate code into reusable methods or classes  
-○	Apply the DRY (Don't Repeat Yourself) principle  
+[***OOD Summary***](https://github.com/Emily8183/solid-samples/blob/main/OOD/OOD_README.md)
 
-2.  Long Methods  
-○	Break down long methods into smaller, more focused methods  
-○	Improve readability and maintainability  
+My biggest takeaway is that the key isn't just to memorize these techniques but to understand WHEN and HOW to apply them in our real projects.
 
-3.  Large Classes  
-○	Split large classes into smaller, more cohesive classes  
-○	Apply the Single Responsibility Principle (SRP)  
-
-4.  Poor Naming  
-○	Simplify complex if-else statements  
-○	Use polymorphism or the Strategy pattern to replace conditional logic  
-
-5.  Complex Conditionals  
-○	Rename variables, methods, and classes to be more descriptive and meaningful  
-○	Follow naming conventions and improve code readability  
-
-6.	Poor Exception Handling  
-○	Implement proper exception handling and error reporting  
-○	Use appropriate exception types and provide meaningful error messages  
-
-7.	Tight Coupling  
-○	Reduce dependencies between classes  
-○	Apply dependency injection or use interfaces to decouple components  
-
-8. Numbers &Strings  
-
-9. Poor Comments  
-
-10. Performance  
-
-11. Testability  
 
 
 
